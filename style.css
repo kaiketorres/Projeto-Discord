@@ -20,19 +20,19 @@ header{
 }
 
 ul,li,a{
-    display: inline-block;
+    display: none;
 }
 
 ul{
-    display: inline-block;
+    display: none;
 }
 
 li{
-    display: inline-block;
+    display: none;
 }
 
 a{
-    display: inline-block;
+    display: none;
 }
 
 .login{
