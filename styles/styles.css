@@ -22,7 +22,7 @@ body{
 header{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     background-color: #404EED;
     width: 100vw; 
     height: 80px;  
@@ -30,7 +30,7 @@ header{
 
 
 ul{
-    display: flex;
+    display: none;
     list-style: none;
 }
 
