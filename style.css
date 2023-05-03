@@ -10,11 +10,6 @@ html{
     width: 100vw;
 }
 
-body{
-    background-color: rgb(255, 0, 179);
-}
-
-
 header{
     display: flex;
     justify-content: space-between;
@@ -24,8 +19,20 @@ header{
     background-color: #404EED ;
 }
 
-ul,li{
-    display: none;
+ul,li,a{
+    display: inline-block;
+}
+
+ul{
+    display: inline-block;
+}
+
+li{
+    display: inline-block;
+}
+
+a{
+    display: inline-block;
 }
 
 .login{
