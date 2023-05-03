@@ -1,0 +1,30 @@
+@media screen and (min-width:449px) and (max-width:926px) {
+    ul{
+        display: none;
+    }
+
+    header{
+        display: flex;
+        align-items: center;
+        background-color: #404EED;
+        width: 100vw;
+        height: 80%;
+    }
+
+    .login{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        width: 360px; 
+        height: 80px;  
+    }
+    
+    .login1{
+        background-color: white;
+        font-size: 14px;
+        margin-right: 10px;
+        border-radius: 50px;
+        padding: 11px 15px 11px 15px;
+        border: none;
+    }
+}
