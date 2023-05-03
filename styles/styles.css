@@ -62,3 +62,12 @@ a{
     padding: 11px 15px 11px 15px;
     border: none;
 }
+
+@media screen and (min-width:920px){
+
+     ul{
+        display: flex;
+     }
+   
+}
+
