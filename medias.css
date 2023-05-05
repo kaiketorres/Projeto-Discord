@@ -14,15 +14,6 @@
         background: url(imgs/hero-bg.jpg) center right / cover no-repeat ;    
     }
 
-    .couteudo1{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-wrap: wrap; 
-        color: white;
-        height: 500px;
-        width: 600px;
-    }
 
     .couteudo1 > h1{  
         padding: 50px 0px 0px 0px;
@@ -35,6 +26,28 @@
        text-align: start;
       font-size: 18px;
         
+    }
+
+    .texto2{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        width: 300px;
+    }
+    
+    .texto2 > h2{
+        font-family: 'kaike';
+        font-weight: bold;
+        font-size: 35px;
+    }
+
+    .texto2 > p{
+        font-family: 'kaike1';
+        font-size: 20px;
+    }
+    
+    .couteudo2 > img{
+        width: 50%;
     }
 
     .login{
@@ -79,6 +92,7 @@
         height: 500px;
         width: 800px;
     }
+
     .couteudo1 > p{
         font-size: 20px;
         text-align: center;
@@ -90,6 +104,59 @@
         font-weight: bolder;
         font-size: 70px;
     }
+
+    .botoes{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: nowrap;
+        width: 720px;
+    }
+    
+    .botoes > button{
+        width: 293px;
+        height: 58px;
+        font-size: 20px ;
+        border: none;
+        border-radius: 50px;
+        
+    }
+    
+    .botao1{
+        margin-right: 50px;
+        margin-top: 0px;
+    }
+    
+    .botao2{
+        margin-top: 0px;
+        background-color: #313338;
+        color: white;
+    }
+
+    
+    .texto2{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        width: 400px;
+    }
+    
+    .texto2 > h2{
+        font-family: 'kaike';
+        font-weight: bold;
+        font-size: 50px;
+    }
+
+    .texto2 > p{
+        font-family: 'kaike1';
+        font-size: 25px;
+    }
+    
+    .couteudo2 > img{
+        width: 50%;
+    }
+
 
     ul{
         display: flex;
@@ -120,40 +187,101 @@
         align-items: center ;
         height: 556px;
         width: 100vw;
-        background: url(imgs/hero-bg.jpg) center center / cover no-repeat ;    
+        background: url(imgs/hero-bg.jpg) center bottom / cover no-repeat ;    
     }
 
     .couteudo1 > br{
         display: none;
     }
 
+    .fundo1{
+        display: flex;
+        justify-content: center;
+        align-items: center ;
+        height: 556px;
+        width: 100vw;
+        background: url(imgs/hero-bg.jpg) center center / cover no-repeat ;    
+    }
+    
     .couteudo1{
         display: flex;
         flex-wrap: wrap; 
         justify-content: center;
-        align-items: center;
-        align-content: center;
+        align-content:flex-start;
+        gap: 50px;
+        padding: 10px;
         color: white;
         height: 500px;
         width: 800px;
     }
-    
     .couteudo1 > p{
         font-size: 20px;
         text-align: center;
     }
     
     .couteudo1 > h1{  
-        padding-top: 10px;
+        padding-top: 100px;
         font-family: 'kaike4';
         font-weight: bolder;
         font-size: 70px;
     }
-    
 
-    body{
-        background-color: #404EED;
+    .botoes{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: nowrap;
+        width: 720px;
     }
+    
+    .botoes > button{
+        width: 293px;
+        height: 58px;
+        font-size: 20px ;
+        border: none;
+        border-radius: 50px;
+        
+    }
+    
+    .botao1{
+        margin-right: 50px;
+        margin-top: 0px;
+    }
+    
+    .botao2{
+        margin-top: 0px;
+        background-color: #313338;
+        color: white;
+    }  
+
+    .couteudo2{
+        justify-content: space-evenly;
+    }
+
+    .texto2{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        width: 400px;
+    }
+    
+    .texto2 > h2{
+        font-family: 'kaike';
+        font-weight: bold;
+        font-size: 50px;
+    }
+
+    .texto2 > p{
+        font-family: 'kaike1';
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+    
+    .couteudo2 > img{
+        width: 700px;
+    }
+    
 
     ul{
         display: flex;
