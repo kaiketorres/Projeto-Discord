@@ -1,11 +1,40 @@
 @media screen and (min-width:768px) and (max-width:922px) {
     /* Tablet */
-    body{
-        background-color: aqua;
-    }
 
     .logo{
         padding: 0px 0px 0px 35px;
+    }
+
+    .fundo1{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start ;
+        height: 556px;
+        width: 100vw;
+        background: url(imgs/hero-bg.jpg) center left / cover no-repeat ;    
+    }
+
+    .couteudo1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap; 
+        color: white;
+        height: 500px;
+        width: 600px;
+    }
+
+    .couteudo1 > h1{  
+        padding: 50px 0px 0px 0px;
+        font-family: 'kaike4';
+        font-weight: bolder;
+        font-size: 70px;
+    }
+
+    .couteudo1 > p{
+       text-align: start;
+      font-size: 18px;
+        
     }
 
     .login{
@@ -21,9 +50,6 @@
 @media screen and (min-width:922px) and (max-width:1200px) {
     /* pc*/
 
-    body{
-        background-color: red;
-    }
 
     .logo{
         padding: 0px 0px 0px 35px;
@@ -31,6 +57,38 @@
 
     .login{
         padding: 0px 35px 0px 0px;
+    }
+
+    .fundo1{
+        display: flex;
+        justify-content: center;
+        align-items: center ;
+        height: 556px;
+        width: 100vw;
+        background: url(imgs/hero-bg.jpg) center left / cover no-repeat ;    
+    }
+    
+    .couteudo1{
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: center;
+        align-content:flex-start;
+        gap: 50px;
+        padding: 10px;
+        color: white;
+        height: 500px;
+        width: 800px;
+    }
+    .couteudo1 > p{
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .couteudo1 > h1{  
+        padding-top: 100px;
+        font-family: 'kaike4';
+        font-weight: bolder;
+        font-size: 70px;
     }
 
     ul{
@@ -55,6 +113,43 @@
         display: flex;
         justify-content: space-evenly;
     }
+
+    .fundo1{
+        display: flex;
+        justify-content: center;
+        align-items: center ;
+        height: 556px;
+        width: 100vw;
+        background: url(imgs/hero-bg.jpg) center left / cover no-repeat ;    
+    }
+
+    .couteudo1 > br{
+        display: none;
+    }
+
+    .couteudo1{
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        color: white;
+        height: 500px;
+        width: 800px;
+    }
+    
+    .couteudo1 > p{
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .couteudo1 > h1{  
+        padding-top: 10px;
+        font-family: 'kaike4';
+        font-weight: bolder;
+        font-size: 70px;
+    }
+    
 
     body{
         background-color: #404EED;

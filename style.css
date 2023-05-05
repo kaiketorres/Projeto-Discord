@@ -54,7 +54,7 @@ ul,li,a{
 .login{
     display: flex;
     align-items: center;
-    padding: 0px 10px 0px 0px;
+    padding: 0px 25px 0px 0px;
 }
 
 .login1{
@@ -67,39 +67,49 @@ ul,li,a{
 
 .fundo1{
     display: flex;
-    justify-content: center;
-    align-items: center ;
+    justify-content: flex-start;
+    align-items: flex-start ;
     height: 556px;
     width: 100vw;
-    background: url(imgs/hero-bg.jpg) center bottom / cover no-repeat ;    
+    background: url(imgs/hero-bg.jpg) center left / cover no-repeat ;    
 }
 
 .couteudo1{
     display: flex;
     flex-wrap: wrap; 
-    justify-content: center;
-    align-content: flex-start;
-    gap: 50px;
+    justify-content: flex-start;
+    align-content:flex-start;
+    gap: 25px;
     padding: 10px;
     color: white;
-    font-size: 20px;
     height: 500px;
-    width: 800px;
-
+    width: 788px;
 }
 .couteudo1 > p{
-    text-align: center;
+    font-family: 'kaike2';
+    font-size: 20px;
+    text-align: start;
 }
 
-.couteudo1 > h1{
-    padding-top: 100px;
+.couteudo1 br{
+    display: none;
+}
+
+.couteudo1 > h1{  
+    padding-top: 50px;
     font-family: 'kaike4';
     font-weight: bolder;
-    font-size: 56px;
+    font-size: 40px;
 }
 
 .fundo2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 100px;
+    font-weight: bold;
     background-color: white;
     width: 100vw;
     height: 556px;
+    
 }
