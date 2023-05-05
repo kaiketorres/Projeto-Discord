@@ -4,19 +4,15 @@
         background-color: aqua;
     }
 
+    .logo{
+        padding: 0px 0px 0px 35px;
+    }
+
+    .login{
+        padding: 0px 35px 0px 0px;
+    }
+
     ul,li,a{
-        display: none;
-    }
-    
-    ul{
-        display: none;
-    }
-    
-    li{
-        display: none;
-    }
-    
-    a{
         display: none;
     }
     
@@ -27,6 +23,14 @@
 
     body{
         background-color: red;
+    }
+
+    .logo{
+        padding: 0px 0px 0px 35px;
+    }
+
+    .login{
+        padding: 0px 35px 0px 0px;
     }
 
     ul{
@@ -49,11 +53,11 @@
 
     header{
         display: flex;
-        justify-content: space-around;
+        justify-content: space-evenly;
     }
 
     body{
-        background-color: blue;
+        background-color: #404EED;
     }
 
     ul{

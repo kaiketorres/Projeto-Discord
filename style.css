@@ -1,8 +1,36 @@
+@font-face {
+    font-family: 'kaike';
+    src: url(fonts/whitneybold.woff);
+}
+
+@font-face {
+    font-family: 'kaike1';
+    src: url(fonts/whitneybook.woff);
+}
+
+@font-face {
+    font-family: 'kaike2';
+    src: url(fonts/whitneylight.woff);
+}
+
+@font-face {
+    font-family: 'kaike3';
+    src: url(fonts/whitneymedium.woff);
+}
+
+@font-face {
+    font-family: 'kaike4';
+    src: url(fonts/whitneysemibold.woff);
+}
 
 *{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
+}
+
+body{
+    overflow-x: hidden; 
 }
 
 html{
@@ -23,18 +51,6 @@ ul,li,a{
     display: none;
 }
 
-ul{
-    display: none;
-}
-
-li{
-    display: none;
-}
-
-a{
-    display: none;
-}
-
 .login{
     display: flex;
     align-items: center;
@@ -49,3 +65,41 @@ a{
     border: none;
 }
 
+.fundo1{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    height: 556px;
+    width: 100vw;
+    background: url(imgs/hero-bg.jpg) center bottom / cover no-repeat ;    
+}
+
+.couteudo1{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-content: flex-start;
+    gap: 50px;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    height: 500px;
+    width: 800px;
+
+}
+.couteudo1 > p{
+    text-align: center;
+}
+
+.couteudo1 > h1{
+    padding-top: 100px;
+    font-family: 'kaike4';
+    font-weight: bolder;
+    font-size: 56px;
+}
+
+.fundo2{
+    background-color: white;
+    width: 100vw;
+    height: 556px;
+}
