@@ -11,7 +11,7 @@
         align-items: flex-start ;
         height: 556px;
         width: 100vw;
-        background: url(imgs/hero-bg.jpg) center left / cover no-repeat ;    
+        background: url(imgs/hero-bg.jpg) center right / cover no-repeat ;    
     }
 
     .couteudo1{
@@ -65,7 +65,7 @@
         align-items: center ;
         height: 556px;
         width: 100vw;
-        background: url(imgs/hero-bg.jpg) center left / cover no-repeat ;    
+        background: url(imgs/hero-bg.jpg) center center / cover no-repeat ;    
     }
     
     .couteudo1{
@@ -120,7 +120,7 @@
         align-items: center ;
         height: 556px;
         width: 100vw;
-        background: url(imgs/hero-bg.jpg) center left / cover no-repeat ;    
+        background: url(imgs/hero-bg.jpg) center center / cover no-repeat ;    
     }
 
     .couteudo1 > br{

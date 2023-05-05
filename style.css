@@ -71,7 +71,7 @@ ul,li,a{
     align-items: flex-start ;
     height: 556px;
     width: 100vw;
-    background: url(imgs/hero-bg.jpg) center left / cover no-repeat ;    
+    background: url(imgs/hero-bg.jpg) center center / cover no-repeat ;    
 }
 
 .couteudo1{
@@ -83,7 +83,7 @@ ul,li,a{
     padding: 10px;
     color: white;
     height: 500px;
-    width: 788px;
+    width: 100vw;
 }
 .couteudo1 > p{
     font-family: 'kaike2';
