@@ -29,6 +29,9 @@
     padding: 0;
 }
 
+body{
+    overflow-x: hidden; 
+}
 
 
 html{
@@ -69,7 +72,6 @@ ul,li,a{
     align-items: flex-start ;
     padding: 0px 15px 0px 15px;
     height: 556px;
-    
     background: url(imgs/hero-bg.jpg) center center / cover no-repeat ;    
 }
 
@@ -128,13 +130,22 @@ ul,li,a{
     color: white;
 }
 
+
+.fundo2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start ;
+    padding: 0px 15px 0px 15px;
+    height: 556px;
+    background: white;    
+}
+
 .couteudo2, .couteudo3{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     align-content: center;
-    background-color: rgb(255, 0, 0);
     width: 100vw;
     height: 650px;  
 }
@@ -168,6 +179,8 @@ p{
 .couteudo3 > img{
     width: 100%;
 }
+
+
 
 
 
