@@ -71,7 +71,7 @@ ul,li,a{
     justify-content: flex-start;
     align-items: flex-start ;
     padding: 0px 15px 0px 15px;
-    height: 556px;
+    height: 600px;
     background: url(imgs/hero-bg.jpg) center center / cover no-repeat ;    
 }
 
@@ -133,11 +133,9 @@ ul,li,a{
 
 .fundo2{
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start ;
-    padding: 0px 15px 0px 15px;
-    height: 556px;
-    background: white;    
+    justify-content: center;
+    align-items: center ;
+    height: 600px; 
 }
 
 .couteudo2, .couteudo3{
@@ -146,20 +144,20 @@ ul,li,a{
     align-items: center;
     justify-content: center;
     align-content: center;
-    width: 100vw;
-    height: 650px;  
+    width: 80vw;
+    height: 600px;
 }
 
 .texto2,.texto3{
     display: flex;
     flex-wrap: wrap;
-    gap: 15px;   
+    gap: 15px; 
     width: 400px;
 }
 
 .texto2,.texto3 > h2{
     font-family: 'kaike';
-    font-size: 22px;
+    font-size: 15px;
 }
 
 p{
