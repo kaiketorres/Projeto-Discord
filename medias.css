@@ -27,20 +27,19 @@
         
     }
 
-    .texto2{
+    .texto2, .texto3{
         display: flex;
         flex-wrap: wrap;
         gap: 15px;
         width: 300px;
     }
     
-    .texto2 > h2{
+    .texto2,.texto3 > h2{
         font-family: 'kaike';
-        font-weight: bold;
         font-size: 35px;
     }
 
-    .texto2 > p{
+    .texto2,.texto3 > p{
         font-family: 'kaike1';
         font-size: 20px;
     }
@@ -49,6 +48,14 @@
         width: 50%;
     }
 
+    .couteudo3{
+        flex-direction: row;    
+    }
+ 
+    .couteudo3 > img{
+        width: 50%;
+    }
+  
     .login{
         padding: 0px 35px 0px 0px;
     }
@@ -132,20 +139,19 @@
         color: white;
     }
 
-    .texto2{
+    .texto2, .texto3{
         display: flex;
         flex-wrap: wrap;
         gap: 15px;
         width: 400px;
     }
     
-    .texto2 > h2{
+    .texto2, .texto3 > h2{
         font-family: 'kaike';
-        font-weight: bold;
         font-size: 50px;
     }
 
-    .texto2 > p{
+    .texto2, .texto3 > p{
         font-family: 'kaike1';
         font-size: 25px;
     }
@@ -154,6 +160,13 @@
         width: 50%;
     }
 
+    .couteudo3{
+        flex-direction: row;    
+    }
+ 
+    .couteudo3 > img{
+        width: 50%;
+    }
 
     ul{
         display: flex;
@@ -236,8 +249,7 @@
         height: 58px;
         font-size: 20px ;
         border: none;
-        border-radius: 50px;
-        
+        border-radius: 50px;   
     }
     
     .botao1{
@@ -251,24 +263,23 @@
         color: white;
     }  
 
-    .couteudo2{
+    .couteudo2, .couteudo3{
         justify-content: space-evenly;
     }
 
-    .texto2{
+    .texto2, .texto3{
         display: flex;
         flex-wrap: wrap;
         gap: 15px;
         width: 400px;
     }
     
-    .texto2 > h2{
+    .texto2, .texto3 > h2{
         font-family: 'kaike';
-        font-weight: bold;
         font-size: 50px;
     }
 
-    .texto2 > p{
+    .texto2, .texto3 > p{
         font-family: 'kaike1';
         font-size: 25px;
         margin-bottom: 30px;
@@ -277,7 +288,14 @@
     .couteudo2 > img{
         width: 700px;
     }
+
+     .couteudo3{
+        flex-direction: row;    
+    }
     
+    .couteudo3 > img{
+        width: 700px;
+    } 
 
     ul{
         display: flex;

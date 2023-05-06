@@ -130,7 +130,7 @@ ul,li,a{
     color: white;
 }
 
-.couteudo2{
+.couteudo2, .couteudo3{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -138,26 +138,41 @@ ul,li,a{
     align-content: center;
     background-color: white;
     width: 100vw;
-    height: 556px;  
+    height: 650px;  
 }
 
-.texto2{
+.texto2,.texto3{
     display: flex;
     flex-wrap: wrap;
     gap: 15px;   
     width: 400px;
 }
 
-.texto2 > h2{
+.texto2,.texto3 > h2{
     font-family: 'kaike';
-    font-weight: bold;
-    font-size: 20px;
+    font-size: 22px;
 }
 
-.texto2 > p{
+p{
+    font-size: 16px;
     font-family: 'kaike1';
 }
 
 .couteudo2 > img{
     width: 100%;
 }
+
+.couteudo3{
+    flex-direction: column-reverse;
+    background-color: rgba(0, 0, 0, 0.089);
+}
+
+.couteudo3 > img{
+    width: 100%;
+}
+
+
+
+
+
+
