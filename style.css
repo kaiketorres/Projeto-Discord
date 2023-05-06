@@ -71,7 +71,7 @@ ul,li,a{
     align-items: flex-start ;
     padding: 0px 15px 0px 15px;
     height: 556px;
-    width: 100vw;
+    
     background: url(imgs/hero-bg.jpg) center center / cover no-repeat ;    
 }
 
@@ -84,7 +84,7 @@ ul,li,a{
     padding: 10px;
     color: white;
     height: 500px;
-    width: 100vw;
+    width: 80vw;
 }
 .couteudo1 > p{
     font-family: 'kaike2';
@@ -121,11 +121,11 @@ ul,li,a{
 }
 
 .botao1{
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .botao2{
-    margin-top: 15px;
+    margin-top: 10px;
     background-color: #313338;
     color: white;
 }

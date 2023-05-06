@@ -10,7 +10,6 @@
         justify-content: flex-start;
         align-items: flex-start ;
         height: 556px;
-        width: 100vw;
         background: url(imgs/hero-bg.jpg) center right / cover no-repeat ;    
     }
 
@@ -23,7 +22,7 @@
     }
 
     .couteudo1 > p{
-       text-align: start;
+      text-align: start;
       font-size: 18px;
         
     }
@@ -77,7 +76,6 @@
         justify-content: center;
         align-items: center ;
         height: 556px;
-        width: 100vw;
         background: url(imgs/hero-bg.jpg) center center / cover no-repeat ;    
     }
     
@@ -134,7 +132,6 @@
         color: white;
     }
 
-    
     .texto2{
         display: flex;
         flex-wrap: wrap;
@@ -186,7 +183,7 @@
         justify-content: center;
         align-items: center ;
         height: 556px;
-        width: 100vw;
+        
         background: url(imgs/hero-bg.jpg) center bottom / cover no-repeat ;    
     }
 
@@ -199,7 +196,6 @@
         justify-content: center;
         align-items: center ;
         height: 556px;
-        width: 100vw;
         background: url(imgs/hero-bg.jpg) center center / cover no-repeat ;    
     }
     
