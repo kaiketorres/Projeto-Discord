@@ -131,7 +131,7 @@ ul,li,a{
 }
 
 
-.fundo2{
+.fundo2,.fundo3{
     display: flex;
     justify-content: center;
     align-items: center ;
