@@ -31,7 +31,21 @@
     .couteudo4 > img{
         width: 50%;
     }
-  
+
+    .botao1{
+        display: block;
+        margin-right: 50px;
+        margin-top: 0px;
+    }
+    
+    .botao2{
+        display: block;
+    }
+    
+    .botao3{
+        display: none;
+    }
+
     .login{
         padding: 0px 35px 0px 0px;
     }
@@ -52,12 +66,14 @@
     
     .couteudo1{
         justify-content: center;
-        align-content:flex-start;
         gap: 50px;
+        width: 800px;
     }
     
     .couteudo1 > h1{  
         padding-top: 100px;
+        font-family: 'kaike4';
+        font-weight: bolder;
         font-size: 70px;
     }
 
@@ -70,12 +86,18 @@
     }
 
     .botao1{
+        display: block;
         margin-right: 50px;
         margin-top: 0px;
     }
     
     .botao2{
+        display: block;
         margin-top: 0px;
+    }
+
+    .botao3{
+        display: none;
     }
 
     .couteudo2 > img{
@@ -153,24 +175,30 @@
     }
     
     .botao1{
+        display: block;
         margin-right: 50px;
         margin-top: 0px;
     }
     
     .botao2{
+        display: block;
         margin-top: 0px;
     }  
 
-    .fundo2, .couteudo3{
-        justify-content: space-evenly;
-    }
-
-    .couteudo2 > img{
-        width: 700px;
+    .botao3{
+        display: none;
     }
 
      .couteudo3{
         flex-direction: row-reverse;    
+    }
+
+    h2{
+        font-size: 35px;
+    }
+
+    p{
+        font-size: 30px;
     }
     
 

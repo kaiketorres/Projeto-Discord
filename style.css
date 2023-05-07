@@ -62,7 +62,6 @@ ul,li,a{
     border-radius: 50px;
     padding: 11px 15px 11px 15px;
     border: none;
-    background-color: chartreuse;
 }
 
 .logo{
@@ -107,7 +106,6 @@ ul,li,a{
     display: none;
 }
 
-
 .botoes{
     display: flex;
     align-items: center;
@@ -126,15 +124,20 @@ ul,li,a{
 }
 
 .botao1{
+    display: none;
     margin-top: 20px;
 }
 
 .botao2{
+    display: none;
     margin-top: 10px;
     background-color: #313338;
     color: white;
 }
 
+.botao3{
+    margin-top: 100px;
+}
 
 .fundo2,.fundo3,.fundo4{
     display: flex;
