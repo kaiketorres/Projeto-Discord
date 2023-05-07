@@ -46,11 +46,8 @@
     /* pc*/
 
     .fundo1{
-        display: flex;
         justify-content: center;
-        align-items: center ;
-        height: 556px;
-        background: url(imgs/hero-bg.jpg) center center / cover no-repeat ;    
+        align-items: center ;   
     }
     
     .couteudo1{
@@ -58,37 +55,20 @@
         align-content:flex-start;
         gap: 50px;
     }
-
-    .couteudo1 > p{
-        font-size: 20px;
-        text-align: center;
-    }
     
     .couteudo1 > h1{  
         padding-top: 100px;
-        font-family: 'kaike4';
-        font-weight: bolder;
         font-size: 70px;
     }
 
+    .couteudo1 > p{
+        text-align: center;
+    }
+
     .botoes{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        align-content: center;
         flex-wrap: nowrap;
-        width: 720px;
     }
-    
-    .botoes > button{
-        width: 293px;
-        height: 58px;
-        font-size: 20px ;
-        border: none;
-        border-radius: 50px;
-        
-    }
-    
+
     .botao1{
         margin-right: 50px;
         margin-top: 0px;
@@ -96,29 +76,14 @@
     
     .botao2{
         margin-top: 0px;
-        background-color: #313338;
-        color: white;
     }
 
-    .texto2, .texto3{
-        display: flex;
-        flex-wrap: wrap;
-        gap: 15px;
-        width: 400px;
-    }
-    
-    .texto2, .texto3, .texto4 > h2{
-        font-family: 'kaike';
-        font-size: 50px;
-    }
-
-    .texto2, .texto3, .texto4 > p{
-        font-family: 'kaike1';
-        font-size: 25px;
-    }
-    
     .couteudo2 > img{
         width: 45%;
+    }
+
+    .couteudo3{
+        flex-direction: row-reverse;    
     }
  
     .couteudo3 > img{
@@ -127,10 +92,6 @@
 
     .couteudo4 > img{
         width: 45%;
-    }
-
-    .couteudo3{
-        flex-direction: row-reverse;    
     }
 
     ul{
@@ -152,45 +113,23 @@
     /* tv*/
 
     header{
-        display: flex;
         justify-content: space-evenly;
     }
 
     .fundo1{
-        display: flex;
         justify-content: center;
         align-items: center ;
-        height: 556px;
-        
         background: url(imgs/hero-bg.jpg) center bottom / cover no-repeat ;    
     }
 
     .couteudo1 > br{
         display: none;
     }
-
-    .fundo1{
-        display: flex;
-        justify-content: center;
-        align-items: center ;
-        height: 556px;
-        background: url(imgs/hero-bg.jpg) center center / cover no-repeat ;    
-    }
     
     .couteudo1{
-        display: flex;
-        flex-wrap: wrap; 
         justify-content: center;
-        align-content:flex-start;
         gap: 50px;
-        padding: 10px;
-        color: white;
-        height: 500px;
         width: 800px;
-    }
-    .couteudo1 > p{
-        font-size: 20px;
-        text-align: center;
     }
     
     .couteudo1 > h1{  
@@ -198,6 +137,10 @@
         font-family: 'kaike4';
         font-weight: bolder;
         font-size: 70px;
+    }
+
+    .couteudo1 > p{
+        text-align: center;
     }
 
     .botoes{
@@ -209,14 +152,6 @@
         width: 720px;
     }
     
-    .botoes > button{
-        width: 293px;
-        height: 58px;
-        font-size: 20px ;
-        border: none;
-        border-radius: 50px;   
-    }
-    
     .botao1{
         margin-right: 50px;
         margin-top: 0px;
@@ -224,32 +159,12 @@
     
     .botao2{
         margin-top: 0px;
-        background-color: #313338;
-        color: white;
     }  
 
     .fundo2, .couteudo3{
         justify-content: space-evenly;
     }
 
-    .texto2, .texto3, .texto4{
-        display: flex;
-        flex-wrap: wrap;
-        gap: 15px;
-        width: 400px;
-    }
-    
-    .texto2, .texto3, .texto4 > h2{
-        font-family: 'kaike';
-        font-size: 50px;
-    }
-
-    .texto2, .texto3, .texto4 > p{
-        font-family: 'kaike1';
-        font-size: 25px;
-        margin-bottom: 30px;
-    }
-    
     .couteudo2 > img{
         width: 700px;
     }
@@ -258,9 +173,6 @@
         flex-direction: row-reverse;    
     }
     
-    .couteudo3 > img{
-        width: 700px;
-    } 
 
     .couteudo2 > img{
         width: 45%;
