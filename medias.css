@@ -1,19 +1,10 @@
 @media screen and (min-width:768px) and (max-width:922px) {
     /* Tablet */
 
-    .logo{
-        padding: 0px 0px 0px 35px;
-    }
-
     .fundo1{
-        display: flex;
-        justify-content: flex-start;
-        align-items: flex-start ;
-        height: 556px;
         background: url(imgs/hero-bg.jpg) center right / cover no-repeat ;    
     }
-
-
+    
     .couteudo1 > h1{  
         padding: 50px 0px 0px 0px;
         font-family: 'kaike4';
@@ -21,27 +12,8 @@
         font-size: 70px;
     }
 
-    .couteudo1 > p{
-      text-align: start;
-      font-size: 18px;
-        
-    }
-
-    .texto2, .texto3{
-        display: flex;
-        flex-wrap: wrap;
-        gap: 15px;
+    .texto2, .texto3,.texto4{
         width: 300px;
-    }
-    
-    .texto2,.texto3 > h2{
-        font-family: 'kaike';
-        font-size: 35px;
-    }
-
-    .texto2,.texto3 > p{
-        font-family: 'kaike1';
-        font-size: 20px;
     }
     
     .couteudo2 > img{
@@ -53,6 +25,10 @@
     }
  
     .couteudo3 > img{
+        width: 50%;
+    }
+
+    .couteudo4 > img{
         width: 50%;
     }
   
@@ -69,15 +45,6 @@
 @media screen and (min-width:922px) and (max-width:1200px) {
     /* pc*/
 
-
-    .logo{
-        padding: 0px 0px 0px 35px;
-    }
-
-    .login{
-        padding: 0px 35px 0px 0px;
-    }
-
     .fundo1{
         display: flex;
         justify-content: center;
@@ -87,15 +54,9 @@
     }
     
     .couteudo1{
-        display: flex;
-        flex-wrap: wrap; 
         justify-content: center;
         align-content:flex-start;
         gap: 50px;
-        padding: 10px;
-        color: white;
-        height: 500px;
-        width: 800px;
     }
 
     .couteudo1 > p{
@@ -146,12 +107,12 @@
         width: 400px;
     }
     
-    .texto2, .texto3 > h2{
+    .texto2, .texto3, .texto4 > h2{
         font-family: 'kaike';
         font-size: 50px;
     }
 
-    .texto2, .texto3 > p{
+    .texto2, .texto3, .texto4 > p{
         font-family: 'kaike1';
         font-size: 25px;
     }
@@ -161,6 +122,10 @@
     }
  
     .couteudo3 > img{
+        width: 45%;
+    }
+
+    .couteudo4 > img{
         width: 45%;
     }
 
@@ -267,19 +232,19 @@
         justify-content: space-evenly;
     }
 
-    .texto2, .texto3{
+    .texto2, .texto3, .texto4{
         display: flex;
         flex-wrap: wrap;
         gap: 15px;
         width: 400px;
     }
     
-    .texto2, .texto3 > h2{
+    .texto2, .texto3, .texto4 > h2{
         font-family: 'kaike';
         font-size: 50px;
     }
 
-    .texto2, .texto3 > p{
+    .texto2, .texto3, .texto4 > p{
         font-family: 'kaike1';
         font-size: 25px;
         margin-bottom: 30px;
@@ -302,6 +267,10 @@
     }
  
     .couteudo3 > img{
+        width: 45%;
+    }
+
+    .couteudo4 > img{
         width: 45%;
     }
 
