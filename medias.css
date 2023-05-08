@@ -7,15 +7,34 @@
     
     .couteudo1 > h1{  
         padding: 50px 0px 0px 0px;
-        font-family: 'kaike4';
         font-weight: bolder;
         font-size: 70px;
     }
 
-    .texto2, .texto3,.texto4{
-        width: 300px;
+    .couteudo5{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        width: 80vw;
+        height: 600px;
     }
-    
+
+    .texto5{
+        width: 500px;
+    }
+
+    .texto5 > h1{
+        font-size: 18px;
+        text-align: center;
+        width: 800px;
+    }
+    .texto5 > p {
+        text-align: center;
+        width: 500px;
+    }
+
     .couteudo2 > img{
         width: 50%;
     }
@@ -30,6 +49,10 @@
 
     .couteudo4 > img{
         width: 50%;
+    }
+
+    .couteudo5 > img{
+        width: 70%;
     }
 
     .botao1{
@@ -72,7 +95,6 @@
     
     .couteudo1 > h1{  
         padding-top: 100px;
-        font-family: 'kaike4';
         font-weight: bolder;
         font-size: 70px;
     }
@@ -116,6 +138,40 @@
         width: 45%;
     }
 
+    .couteudo4 > img{
+        width: 45%;
+    }
+
+    .couteudo5 > img{
+        width: 70%;
+    }
+
+    .couteudo5{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        width: 80vw;
+        height: 600px;
+    }
+
+    .texto5{
+        width: 500px;
+    }
+
+    .texto5 > h1{
+        font-size: 21px;
+        text-align: center;
+        width: 800px;
+    }
+
+    .texto5 > p {
+        text-align: center;
+        width: 600px;
+    }
+
     ul{
         display: flex;
         justify-content: center;
@@ -156,7 +212,6 @@
     
     .couteudo1 > h1{  
         padding-top: 100px;
-        font-family: 'kaike4';
         font-weight: bolder;
         font-size: 70px;
     }
@@ -193,14 +248,13 @@
         flex-direction: row-reverse;    
     }
 
-    h2{
-        font-size: 35px;
-    }
-
     p{
-        font-size: 30px;
+        font-size: 20px;
     }
     
+    h1{
+        font-size: 30px;
+    }
 
     .couteudo2 > img{
         width: 45%;
@@ -212,6 +266,41 @@
 
     .couteudo4 > img{
         width: 45%;
+    }
+
+    .couteudo5 > img{
+        width: 80%;
+    }
+
+    .fundo5{
+        height: 1000px;
+    }
+
+    .couteudo5{
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        width: 80vw;
+        height: 600px;
+    }
+
+    .texto5{
+        width: 1000px;
+    }
+    
+    .texto5 > h1{
+        font-size: 40px;
+        text-align: center;
+        width: 1000px;
+    }
+    
+    .texto5 > p {
+        text-align: center;
+        font-size: 20px;
+        width: 1000px;
     }
 
     ul{

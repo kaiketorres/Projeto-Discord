@@ -23,6 +23,16 @@
     src: url(fonts/whitneysemibold.woff);
 }
 
+@font-face {
+    font-family: 'kaike5';
+    src: url(fonts/integral-cf-heavy.otf);
+}
+
+@font-face {
+    font-family: 'kaike6';
+    src: url(fonts/resotyc-Regular.otf);
+}
+
 *{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
@@ -91,7 +101,7 @@ ul,li,a{
 
 .couteudo1 > h1{  
     padding-top: 50px;
-    font-family: 'kaike4';
+    font-family: 'kaike5';
     font-weight: bolder;
     font-size: 40px;
 }
@@ -139,7 +149,7 @@ ul,li,a{
     margin-top: 100px;
 }
 
-.fundo2,.fundo3,.fundo4{
+.fundo2,.fundo3,.fundo4,.fundo5{
     display: flex;
     justify-content: center;
     align-items: center ;
@@ -150,7 +160,11 @@ ul,li,a{
     background-color: rgba(0, 0, 0, 0.089);
 }
 
-.couteudo2, .couteudo3,.couteudo4{
+.fundo5{
+    background-color: rgba(0, 0, 0, 0.089);
+}
+
+.couteudo2, .couteudo3,.couteudo4,.couteudo5{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -160,20 +174,31 @@ ul,li,a{
     height: 600px;
 }
 
-.texto2,.texto3,.texto4{
+.texto2,.texto3,.texto4,.texto5{
     display: flex;
     flex-wrap: wrap;
     gap: 15px; 
     width: 400px;
 }
 
-.texto2,.texto3,.texto4 > h2{
+
+.texto2 > h1{
     font-family: 'kaike';
-    font-size: 22px;
+    font-size: 25px;
 }
 
-h2{
+.texto3 > h1{
     font-family: 'kaike';
+    font-size: 25px;
+}
+
+.texto4 > h1{
+    font-size: 25px;
+}
+
+.texto5 > h1{
+    font-family: 'kaike5';
+    font-size: 25px;
 }
 
 p{
@@ -190,6 +215,10 @@ p{
 }
 
 .couteudo4 > img{
+    width: 100%;
+}
+
+.couteudo5 > img{
     width: 100%;
 }
 
