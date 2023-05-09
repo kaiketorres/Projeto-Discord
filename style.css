@@ -48,13 +48,17 @@ html{
     width: 100vw;
 }
 
-header{
+header,.header2{
     display: flex;
     justify-content: space-between;
     padding: 15px 0px 15px 0px;
     width: 100%;
     height: 80%;
     background-color: #404EED ;
+}
+
+.header2{
+    background-color: #23272A;
 }
 
 ul,li,a{
@@ -74,7 +78,7 @@ ul,li,a{
     border: none;
 }
 
-.logo{
+.logo,.logo2{
     padding: 0px 0px 0px 28px;
 }
 
@@ -129,8 +133,7 @@ ul,li,a{
     height: 58px;
     font-size: 20px ;
     border: none;
-    border-radius: 50px;
-    
+    border-radius: 50px;  
 }
 
 .botao1{
@@ -149,6 +152,24 @@ ul,li,a{
     margin-top: 100px;
 }
 
+.baixar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 400px;
+}
+
+.botao3-5,.botao3-6{
+    margin-top: 20px;
+    background-color:#404EED;
+    color: white;
+}
+
+.botao3-6{
+    display: none;
+}
+
 .fundo2,.fundo3,.fundo4,.fundo5{
     display: flex;
     justify-content: center;
@@ -161,6 +182,7 @@ ul,li,a{
 }
 
 .fundo5{
+    height: 700px;
     background-color: rgba(0, 0, 0, 0.089);
 }
 
@@ -181,26 +203,18 @@ ul,li,a{
     width: 400px;
 }
 
-
-.texto2 > h1{
-    font-family: 'kaike';
-    font-size: 25px;
-}
-
-.texto3 > h1{
-    font-family: 'kaike';
-    font-size: 25px;
-}
-
-.texto4 > h1{
+h1{
+    font-family: 'kaike3';
     font-size: 25px;
 }
 
 .texto5 > h1{
     font-family: 'kaike5';
-    font-size: 25px;
 }
 
+h2{
+    text-align: start;
+}
 p{
     font-size: 16px;
     font-family: 'kaike2';
@@ -221,6 +235,31 @@ p{
 .couteudo5 > img{
     width: 100%;
 }
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: space-between;
+    background-color: #23272A;
+    color: white;
+}
+
+.coluna{ 
+    padding: 30px;
+}
+
+footer ul,li,a{
+    display: block;
+    columns: 1;
+    line-height: 50px;
+}
+
+footer ol > li{
+    color: #5865F2;
+}
+
+
 
 
 
