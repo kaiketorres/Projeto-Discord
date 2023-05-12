@@ -48,7 +48,7 @@ html{
     width: 100vw;
 }
 
-header,.header2{
+header{
     display: flex;
     justify-content: space-between;
     padding: 15px 0px 15px 0px;
@@ -58,11 +58,17 @@ header,.header2{
 }
 
 .header2{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px 15px 0px;
     background-color: #23272A;
 }
 
 ul,li,a{
     display: none;
+    text-decoration: none;
+    color: white;
+    padding: 0px 10px 0px 10px;
 }
 
 .login{
@@ -123,7 +129,7 @@ ul,li,a{
 .botoes{
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     flex-wrap: wrap;
     width: 515px;
 }
@@ -155,8 +161,8 @@ ul,li,a{
 .baixar{
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     width: 400px;
 }
 
@@ -245,10 +251,6 @@ footer{
     color: white;
 }
 
-.coluna{ 
-    padding: 30px;
-}
-
 footer ul,li,a{
     display: block;
     columns: 1;
@@ -258,14 +260,3 @@ footer ul,li,a{
 footer ol > li{
     color: #5865F2;
 }
-
-
-
-
-
-
-
-
-
-
-

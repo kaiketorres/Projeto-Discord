@@ -221,7 +221,7 @@
     }
 
     ul,li,a{
-        display: none;
+        display: flex;
     }
 
     footer ul,li,a{
@@ -376,7 +376,7 @@
     }
 
     ul,li,a{
-        display: none;
+        display: flex;
     }
 
     footer ul,li,a{
